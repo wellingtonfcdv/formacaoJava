@@ -19,4 +19,10 @@ public class Filme  extends Titulo implements Classificavel {
     public int getClassificacao() {
         return 0;
     }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "Filme: " + this.getNome() + " (" + this.getAnoDeLancamento() + ")";
+    }
 }
